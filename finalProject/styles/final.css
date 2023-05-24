@@ -1,0 +1,810 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+  
+}
+
+body{
+    background-image: url(../photoes/playstation2.jpg);
+    /* background-repeat: no-repeat;
+    background-size: cover; */
+}
+
+@font-face {
+    font-family: Reso;
+    src: url("/fonts/Reso.ttf");
+}
+
+@font-face {
+    font-family: bigParty;
+    src: url("/fonts/bigParty.ttf");
+}
+
+.active{
+    color: rgb(242, 255, 4);
+    background-color: rgb(5, 69, 245);
+    border-radius: 15px;
+    padding: 6px;
+}
+
+header nav{
+    width: 70%;
+    margin: 20px auto;
+    
+   
+}
+header nav ul{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    border-radius:  50px;
+ 
+}
+
+header nav li{
+    padding: 10px;   
+ 
+}
+header nav a{
+    color: red;
+   
+}
+
+header nav a:hover{
+    color: rgb(242, 255, 4);
+    background-color: rgb(5, 69, 245);
+    border-radius: 15px;
+    padding: 6px;
+}
+
+.margerPhotoes{
+    display: flex;
+    justify-content:space-between ;
+    gap: 15px ;
+}
+
+.margerPhotoes div{
+    width:300px;
+    /* height: 200px; */
+
+   
+}
+.slide-wrapper img{
+width: 100%;
+height: 100%;
+border-radius: 15%;
+
+}
+#slideshow {
+    overflow: hidden; 
+    height: 510px;
+    width: 728px;
+    margin: 0 auto;
+}
+ 
+ 
+.slide {
+    float: left;
+    height: 510px;
+    width: 728px;
+}
+ 
+/* Add animation to the slides */
+ 
+.slide-wrapper {
+    width: calc(728px * 5);
+    animation: slide-wrapper 10s ease infinite;
+    
+}
+ 
+ 
+
+@keyframes slide-wrapper {
+
+    
+    15% {
+        margin-left: 0px;
+    }
+    30% {
+        margin-left: calc(-728px * 1);
+    }
+    45% {
+        margin-left: calc(-728px * 2);
+    }
+    60% {
+        margin-left: calc(-728px * 3);
+    }
+    75%
+    {
+        margin-left: calc(-728px * 4);
+    }
+    /* 100%{
+        
+        margin-left: calc(-728px * 5);
+        
+    }  */
+
+}
+
+.assasin h1{
+    text-align: center;
+    color: black;
+    text-shadow:  red 2px 2px;
+   
+    
+}
+
+.assasin p{
+    color: rgb(73, 13, 193);
+    margin: 10px auto;
+    font-family: Reso;
+}
+
+/* .assasin img{
+    display: flex;
+    justify-content: space-between;
+    border-radius: 15px;
+    width: 300px;
+
+   
+   
+} */
+
+.mergerassasin{
+    display: flex;
+    justify-content: space-between;
+    width: 1200px;
+    margin: 30px auto;
+    background-image: url(../https://i.ytimg.com/vi/0EWYuQAR8us/maxresdefault.jpg);
+    
+
+}
+
+
+
+
+.mergerassasin div {
+    width: 300px;
+    border: solid black 3px;
+    border-radius: 40px;
+    overflow: hidden;
+    transition: 1s;
+
+    
+    
+}
+
+.mergerassasin div:hover{
+    transform: scale(1.1);
+}
+
+.mergerassasin img{
+    width: 100%;
+    height: 100%;
+   
+  
+}
+
+.assasinBuy1{
+    margin: 70px auto;
+    width: 10%;
+
+    
+}
+
+.assasinBuy1 input{
+    padding: 20px;
+    color: red;
+    font-weight: bold;
+    text-shadow: yellow 2px 2px;
+    border: solid red 3px;
+    border-radius: 30px;
+    background-color: blanchedalmond;
+}
+
+.assasinBuy1 input:hover{
+    background-color: rgb(226, 208, 43);
+    color:black;
+    cursor: pointer;
+}
+
+
+
+
+.crash h1{
+    text-align: center;
+    color: yellow;
+    text-shadow: black 2px 2px;
+    
+}
+
+.crash p{
+    font-size: 24px;
+    margin: 10px auto;
+    color: yellowgreen;
+    text-decoration: underline;
+}
+
+.crash img{
+    border-radius: 15px;
+}
+
+.mergercrash{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: 20px auto;
+}
+
+.mergercrash div{
+    width: 300px;
+    margin: 30px auto;
+}
+
+.mergercrash div:hover{
+   
+    transform: skewX(-20deg);
+}
+
+.mergercrash img{
+    width: 100%;
+    height: 100%;
+}
+
+.football h1{
+    text-align: center;
+    color: aqua;
+  
+    
+}
+
+.football p{
+    margin: 10px auto;
+    color: blueviolet;
+    text-shadow: blue 1px 1px;
+    
+}
+
+.mergerfootball{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: 20px auto;
+}
+
+.mergerfootball div{
+    width: 300px;
+    margin: 30px auto;
+}
+
+.mergerfootball div:hover{
+      transform: rotateZ(-90deg); 
+}
+
+.mergerfootball img{
+    width: 100%;
+    height: 100%;
+}
+
+.spiderman h1{
+    color:red;
+    text-align: center;
+}
+
+.spiderman p{
+    color: blueviolet;
+}
+
+.spiderman img{
+    width: 800px;
+    height: 600px;
+
+}
+
+.mergerspiderman{
+    display: flex;
+    justify-content: space-between;
+    width: 1200px;
+
+}
+
+.mergerspiderman div{
+    width: 300px;
+    margin: 30px auto;
+}
+
+.mergerspiderman div:hover{
+        transform: rotate(180deg);
+}   
+
+.mergerspiderman img{
+    width: 100%;
+    height: 100%;
+}
+
+.mergertekken{
+    display: flex;
+    justify-content: space-between;
+    width: 1200px;
+}
+
+.mergertekken div{
+    width: 300px;
+    margin: 30px auto;
+    animation-name: rotator;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes rotator {
+    0% {transform: rotate(0deg);}
+    25%{transform: rotate(90deg);}
+    50% {transform: rotate(180deg);}
+    75% {transform: rotate(270deg);}
+    100% {transform: rotate(360deg);}
+    
+}
+
+
+
+.mergertekken img{
+    width: 100%;
+    height: 100%;
+}
+
+
+
+footer{
+    background-color: rgb(16, 16, 94);
+    margin-top: 100px;
+    /* padding-top: 100px; */
+    
+}
+
+.first{
+    
+    align-items: center;
+    /* border-bottom: 2px solid gray; */
+    margin: 0 auto;
+    height: 60px;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+ 
+}
+
+.links{
+    display: flex;
+    gap: 5px;
+    
+}
+
+.links div{
+    width: 20px;    
+
+}
+
+.links img{
+   width:100% ; 
+  
+}
+
+.second h2{
+    color: white;
+    margin-bottom: 20px;
+}
+
+.second{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+
+
+.second nav a{
+    
+    text-decoration: none;
+    color: white;
+    display: block;
+    
+}
+
+.second input{
+    background-color: rgb(25, 25, 116);
+    display: block;
+}
+
+.second button{
+    background-color: white;
+    display: block;
+    margin-top: 5px;
+}
+
+.second input:hover{
+    background-color: rgb(233, 163, 12);
+    
+    
+}
+
+
+.second button:hover{
+    background-color: aqua;
+}
+
+.subscribe button{
+    margin:10px auto;
+    border-radius: 20px;
+}
+
+.headingAbout h1{
+    text-align: center;
+    color: yellow;
+    
+}
+
+.headingAbout p{
+    color: rgb(9, 60, 244);
+    text-decoration: line-through;
+}
+
+.headingAbout{
+   width: 400px;
+   padding: 30px;
+   background: rgb(216,249,15);
+background: linear-gradient(90deg, rgba(216,249,15,1) 6%, rgba(255,3,59,1) 32%, rgba(33,28,28,1) 70%, rgba(101,255,5,1) 100%);
+   margin:120px auto;
+   border-radius: 30px;
+}
+
+.aboutImige{
+    display: flex;
+    justify-content: space-between;
+    margin: 80px auto;
+    width: 90%;
+}
+
+.aboutImige div{
+    background-color: blue;
+    color: rgb(172, 255, 5);
+   
+}
+
+.nika{
+    width: 30%;
+    background-color: blue;
+}
+
+.nika div{
+    width: 100%;
+    filter: blur(2px);
+    transition: 2s;
+    border-radius: 30px;
+    overflow: hidden;
+    /* height: 100%; */
+}
+
+.nika div:hover{
+    filter: blur(0);
+    cursor: pointer;
+    
+}
+
+.nika div img{
+    width: 100%;
+    height: 100%;
+    
+}
+
+.nika a{
+    color: red;
+}
+
+
+
+
+
+.contactus{
+    width: 400px;
+    padding: 30px;
+    background-color: yellowgreen;
+    margin: 120px auto;
+    border-radius: 40px;
+}
+
+.contactus h1{
+    color: blue;
+    text-align: center;
+    
+}
+
+.contactus p{
+    margin-top: 30px;
+}
+
+.information{
+    background-color: blue;
+    width: 400px;
+    margin: 120px auto;
+    border-radius: 40px;
+    padding: 30px;
+
+}
+.information h1{
+    text-align: center;
+    text-decoration: underline;
+    text-shadow: red 2px 2px;
+
+}
+
+.information p{
+    color: black;
+    font-weight: bold;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.information p::first-line{
+    color: rgb(255, 255, 0);
+}
+
+.rent{
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    /* background-color: blanchedalmond; */
+    margin: auto;
+    
+    
+}
+
+.rent div img{
+    width: 90%;
+    height: 50%;
+    border-radius: 20px;
+}
+
+.rent div{
+    color: yellowgreen;
+    font-family: bigparty;
+}
+
+.rent div{
+    text-align: center;
+}
+
+.rent div ul{
+    font-size: 20px;
+    text-align: center;
+}
+
+table{
+    color: aqua;
+    margin:50px auto;
+    font-size: 30px;
+}
+
+table tr:hover{
+    background-color: yellowgreen;
+}
+.contactSoc img{
+    width: 30%;
+    height: 30%;
+}
+
+.contactSoc{
+    background-color: yellow;
+    width: 50%;
+    border-radius: 20px;
+    display: flex;
+    margin:100px auto;
+    gap: 40px;
+    justify-content: space-evenly;
+    transition: 2s;
+}
+
+.contactSoc:hover{
+    transform: scale(1.2);
+}
+
+.tekspider{
+    display: flex;
+    justify-content: space-between;
+}
+
+.tekspider img{
+    width: 500px;
+    height: 100%;
+    animation-name: tekspider;
+    animation-duration: 2S;
+    animation-iteration-count: infinite;
+}
+
+@keyframes tekspider{
+    0%{
+        transform: rotate(0deg);
+    }
+    30%{
+        transform: rotate(90deg);
+    }
+    60%{
+        transform: rotate(120deg);
+    }
+    90%{
+        transform: rotate(180deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+    /* 100%{
+        transform: rotate(60deg);
+    } */
+}
+
+
+
+/*ნიკა ბუბაშვილი
+მთავარ გვერდზე სლაიდერი აქვს
+და აქვს ფუტერი მაგრამ სხვა არაფერი
+ფუტერი მოცემული აქვს მაგრამ ძალიან გავს გადაწერილის მახსოვს სხვასაც ქონდა ესეთი დიზაინი
+
+ებაუთზეც მხოლოდ ტექსტია გარდამავალი ფერებით სხვა არაფერი.
+საკონტაქტო გვერდზე არაფერია გარდა ტექსტებისა, გარკვეულწილად გასტილულია ტექსტის ბექგრაუნდი მაგრამ სულ ესაა.
+აქაც ტექსტია მოცემული და პირველი ზოლია გასტილული მხოლოდ ტექსტზე
+
+სერვისებშიც მხოლოდ ტექსტის სახელია და ტექსტი
+
+გითჰაბზეც ხარვეზი აქვს და ვერ მოასწრო
+
+
+
+ჰტმლ მთავარი ნაწილი არისო ჰედი ბოდი და ფუტერი რაც არაა სწორი
+
+არ იცის ჰედერში რა თავსდება
+
+არ იცის doctype რატომ წერია
+
+ჰედერზე მეინზე და ფუტერზე ასე თუ ისე მესაუბრა
+იგივე ითქმის დივ ტეგების ახსნაზეც.
+
+ფსეუდო კალსებზე შეუძლია მაგალითების მოყვანა, მაგრამ ზოგადად ფსეუდო კლასები რას წარმოადგენენ ვერ მეუბნება
+
+პროცენტებზე ქეიფრეიმში ვერ მიხსნის რა როგორ და რატომ ხდება
+
+მარჯინზე არ აშორებს გარე კედელს უზრდის რაც დაშორების ეფექტს იძლევა
+
+წერტილი დივი არისო არადა წერტილი კლასია
+
+მარტივი რესპონსიულობა გათვალისწინებულია მხოლოდ ტელეფონზე
+
+ახლოსაა რელატიურისა და აბსოლუტური პოზიციების ახსნისას მათ ახსნაზე.*/
+.rent img{
+   
+    width: 100%;
+    height: 70%;
+   
+}
+
+.rent p{
+    color: aqua;
+    text-align: center;
+    margin: 80px auto;
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 800px){
+    #slideshow {
+        overflow: hidden; 
+        height: 320px;
+        width: 400px;
+        margin: 0 auto;
+       
+    }
+
+    .slide {
+        float: left;
+        height: 320px;
+        width: 400px;
+    }
+
+    @keyframes slide-wrapper {
+
+    
+        15% {
+            margin-left: 0px;
+        }
+        30% {
+            margin-left: calc(-400px * 1);
+        }
+        45% {
+            margin-left: calc(-400px * 2);
+        }
+        60% {
+            margin-left: calc(-400px * 3);
+        }
+        75%
+        {
+            margin-left: calc(-400px * 4);
+        }
+        /* 100%{
+            
+            margin-left: calc(-728px * 5);
+            
+        }  */
+    
+    }
+}
+
+.kalata{
+    display: flex;
+    margin: 50px auto;
+    justify-content: space-between;
+    width: 90%;
+    gap: 30px ;
+    
+}
+
+.kalata div{
+    background-color: blueviolet;
+    width: fit-content;
+    height: fit-content;
+    border: solid gold 2px;
+    border-radius: 20px;
+    transition: 2s;
+}
+
+.kalata h1{
+    color: red;
+    font-size: 120%;
+    text-align: center;
+    text-decoration: underline;
+    text-shadow: black 2px 2px;
+    
+}
+
+.kalata p::first-line{
+    color:rgb(196, 252, 11);
+    text-decoration:overline;
+    text-shadow: black 2px 2px;
+}
+
+
+.kalata p{
+    color: rgb(101, 246, 11);
+    margin: 20px auto;
+    font-size: 100%;
+    text-align: left;
+}
+
+.kalata div:hover{
+   background-color: rgb(8, 155, 253);
+   cursor: pointer;
+
+   
+   
+}
+
+.qvabi1:hover{
+    transform: rotate(10deg ) scale(1.1);
+    overflow: visible;
+}
+
+.qvabi2:hover{
+    transform: scale(1.1);
+}
+
+.qvabi3:hover{
+    transform: rotate(-10deg ) scale(1.1);
+    overflow: visible;
+}
