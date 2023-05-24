@@ -222,8 +222,8 @@ border-radius: 15%;
 
 .crash p{
     font-size: 24px;
-    font-family: bigParty;
     margin: 10px auto;
+    color: yellowgreen;
     text-decoration: underline;
 }
 
@@ -462,6 +462,53 @@ background: linear-gradient(90deg, rgba(216,249,15,1) 6%, rgba(255,3,59,1) 32%, 
    border-radius: 30px;
 }
 
+.aboutImige{
+    display: flex;
+    justify-content: space-between;
+    margin: 80px auto;
+    width: 90%;
+}
+
+.aboutImige div{
+    background-color: blue;
+    color: rgb(172, 255, 5);
+   
+}
+
+.nika{
+    width: 30%;
+    background-color: blue;
+}
+
+.nika div{
+    width: 100%;
+    filter: blur(2px);
+    transition: 2s;
+    border-radius: 30px;
+    overflow: hidden;
+    /* height: 100%; */
+}
+
+.nika div:hover{
+    filter: blur(0);
+    cursor: pointer;
+    
+}
+
+.nika div img{
+    width: 100%;
+    height: 100%;
+    
+}
+
+.nika a{
+    color: red;
+}
+
+
+
+
+
 .contactus{
     width: 400px;
     padding: 30px;
@@ -506,30 +553,152 @@ background: linear-gradient(90deg, rgba(216,249,15,1) 6%, rgba(255,3,59,1) 32%, 
     color: rgb(255, 255, 0);
 }
 
-.services{
-    background-color: rgb(143, 9, 4);
-    width: 400px;
-    margin: 120px auto;
-    border: black 2px solid;
-    border-radius: 10%;
-}
-
-.services h1{
-    text-align: center;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-
-.services p::first-letter{
-    text-align: center;
-    color: rgb(37, 248, 0);
-    text-transform: capitalize;
+.rent{
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    /* background-color: blanchedalmond; */
+    margin: auto;
     
-
+    
 }
 
-.services p{
-    color: rgb(16, 196, 241);
+.rent div img{
+    width: 90%;
+    height: 50%;
+    border-radius: 20px;
 }
+
+.rent div{
+    color: yellowgreen;
+    font-family: bigparty;
+}
+
+.rent div{
+    text-align: center;
+}
+
+.rent div ul{
+    font-size: 20px;
+    text-align: center;
+}
+
+table{
+    color: aqua;
+    margin:50px auto;
+    font-size: 30px;
+}
+
+table tr:hover{
+    background-color: yellowgreen;
+}
+.contactSoc img{
+    width: 30%;
+    height: 30%;
+}
+
+.contactSoc{
+    background-color: yellow;
+    width: 50%;
+    border-radius: 20px;
+    display: flex;
+    margin:100px auto;
+    gap: 40px;
+    justify-content: space-evenly;
+    transition: 2s;
+}
+
+.contactSoc:hover{
+    transform: scale(1.2);
+}
+
+.tekspider{
+    display: flex;
+    justify-content: space-between;
+}
+
+.tekspider img{
+    width: 500px;
+    height: 100%;
+    animation-name: tekspider;
+    animation-duration: 2S;
+    animation-iteration-count: infinite;
+}
+
+@keyframes tekspider{
+    0%{
+        transform: rotate(0deg);
+    }
+    30%{
+        transform: rotate(90deg);
+    }
+    60%{
+        transform: rotate(120deg);
+    }
+    90%{
+        transform: rotate(180deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+    /* 100%{
+        transform: rotate(60deg);
+    } */
+}
+
+
+
+/*ნიკა ბუბაშვილი
+მთავარ გვერდზე სლაიდერი აქვს
+და აქვს ფუტერი მაგრამ სხვა არაფერი
+ფუტერი მოცემული აქვს მაგრამ ძალიან გავს გადაწერილის მახსოვს სხვასაც ქონდა ესეთი დიზაინი
+
+ებაუთზეც მხოლოდ ტექსტია გარდამავალი ფერებით სხვა არაფერი.
+საკონტაქტო გვერდზე არაფერია გარდა ტექსტებისა, გარკვეულწილად გასტილულია ტექსტის ბექგრაუნდი მაგრამ სულ ესაა.
+აქაც ტექსტია მოცემული და პირველი ზოლია გასტილული მხოლოდ ტექსტზე
+
+სერვისებშიც მხოლოდ ტექსტის სახელია და ტექსტი
+
+გითჰაბზეც ხარვეზი აქვს და ვერ მოასწრო
+
+
+
+ჰტმლ მთავარი ნაწილი არისო ჰედი ბოდი და ფუტერი რაც არაა სწორი
+
+არ იცის ჰედერში რა თავსდება
+
+არ იცის doctype რატომ წერია
+
+ჰედერზე მეინზე და ფუტერზე ასე თუ ისე მესაუბრა
+იგივე ითქმის დივ ტეგების ახსნაზეც.
+
+ფსეუდო კალსებზე შეუძლია მაგალითების მოყვანა, მაგრამ ზოგადად ფსეუდო კლასები რას წარმოადგენენ ვერ მეუბნება
+
+პროცენტებზე ქეიფრეიმში ვერ მიხსნის რა როგორ და რატომ ხდება
+
+მარჯინზე არ აშორებს გარე კედელს უზრდის რაც დაშორების ეფექტს იძლევა
+
+წერტილი დივი არისო არადა წერტილი კლასია
+
+მარტივი რესპონსიულობა გათვალისწინებულია მხოლოდ ტელეფონზე
+
+ახლოსაა რელატიურისა და აბსოლუტური პოზიციების ახსნისას მათ ახსნაზე.*/
+.rent img{
+   
+    width: 100%;
+    height: 70%;
+   
+}
+
+.rent p{
+    color: aqua;
+    text-align: center;
+    margin: 80px auto;
+    text-decoration: underline;
+}
+
+
+
 
 
 
@@ -577,4 +746,65 @@ background: linear-gradient(90deg, rgba(216,249,15,1) 6%, rgba(255,3,59,1) 32%, 
     }
 }
 
+.kalata{
+    display: flex;
+    margin: 50px auto;
+    justify-content: space-between;
+    width: 90%;
+    gap: 30px ;
+    
+}
 
+.kalata div{
+    background-color: blueviolet;
+    width: fit-content;
+    height: fit-content;
+    border: solid gold 2px;
+    border-radius: 20px;
+    transition: 2s;
+}
+
+.kalata h1{
+    color: red;
+    font-size: 120%;
+    text-align: center;
+    text-decoration: underline;
+    text-shadow: black 2px 2px;
+    
+}
+
+.kalata p::first-line{
+    color:rgb(196, 252, 11);
+    text-decoration:overline;
+    text-shadow: black 2px 2px;
+}
+
+
+.kalata p{
+    color: rgb(101, 246, 11);
+    margin: 20px auto;
+    font-size: 100%;
+    text-align: left;
+}
+
+.kalata div:hover{
+   background-color: rgb(8, 155, 253);
+   cursor: pointer;
+
+   
+   
+}
+
+.qvabi1:hover{
+    transform: rotate(10deg ) scale(1.1);
+    overflow: visible;
+}
+
+.qvabi2:hover{
+    transform: scale(1.1);
+}
+
+.qvabi3:hover{
+    transform: rotate(-10deg ) scale(1.1);
+    overflow: visible;
+}
